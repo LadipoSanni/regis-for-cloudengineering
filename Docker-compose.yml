@@ -5,7 +5,7 @@ services:
     image: regis:latest
     container_name: regis-app
     ports:
-      - "8524:9010"
+      - "8080:8524"
     environment:
       - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/userRegister
       - SPRING_DATASOURCE_USERNAME=${USERNAME}
