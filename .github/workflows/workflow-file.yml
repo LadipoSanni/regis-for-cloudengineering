@@ -46,6 +46,6 @@ jobs:
       - name: Build with Maven
         run: mvn clean package -DskipTests
         env:
-          SPRING_DATASOURCE_URL: jdbc:mysql://localhost:3306/userRegister
+          SPRING_DATASOURCE_URL: jdbc:mysql://localhost:3307/userRegister
           SPRING_DATASOURCE_USERNAME: root
           SPRING_DATASOURCE_PASSWORD: root
